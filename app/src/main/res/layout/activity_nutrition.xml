@@ -35,9 +35,17 @@
             android:id="@+id/recipesText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:text="Nutrition Tips\n\n1. Drink Plenty of Water\nStay hydrated by drinking at least 6–8 glasses daily.\n\n2. Eat Balanced Meals\nInclude proteins, carbohydrates, and healthy fats in every meal.\n\n3. Increase Fruit and Vegetable Intake\nAim for at least 5 servings a day.\n\n4. Reduce Sugar Consumption\nLimit sugary drinks and snacks.\n\n5. Choose Whole Grains\nOpt for brown bread, oats, and whole grain rice.\n\n6. Control Portion Sizes\nAvoid overeating by keeping portions moderate.\n\n7. Eat Regular Meals\nDo not skip meals, especially breakfast.\n\n8. Limit Processed Foods\nReduce intake of fast foods and packaged snacks.\n\n9. Include Protein in Diet\nEat beans, eggs, fish, or lean meat regularly.\n\n10. Practice Healthy Snacking\nChoose nuts, fruits, or yogurt instead of junk food."
-            android:textSize="16sp"
-            android:padding="16dp"/>
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewardAd"
+            android:text="Get Reward"
+            android:textSize="32sp"
+            android:backgroundTint="#08D008"/>
 
     </LinearLayout>
 
