@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyGoalsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#F789"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/goals"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals\n\nThis week is a fresh start—set your intentions and stay focused 💡\n\nTake time to plan what you want to achieve and break your goals into small, manageable steps.\n\nFocus on being consistent rather than perfect. Progress is built through daily effort.\n\nMake time for your health—exercise, eat well, and rest when needed.\n\nStay organized and prioritize what truly matters. Avoid distractions and stay committed to your plan.\n\nLearn something new, improve a skill, or challenge yourself in a small way.\n\nTake care of your mental well-being—relax, reflect, and stay positive.\n\nCelebrate your achievements, no matter how small they seem.\n\nAt the end of the week, reflect on your progress and prepare to do even better next week 🚀"
+            android:textSize="16sp"
+            android:background="#987"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/btnSetGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Set My Weekly Goals"
+            android:textSize="18sp"
+            android:padding="14dp"
+            android:backgroundTint="#009688"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

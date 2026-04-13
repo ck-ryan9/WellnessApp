@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#353"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/meditation1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation And Mindfulness\n\n1. Start with Deep Breathing\nTake slow, deep breaths to calm your mind.\n\n2. Find a Quiet Space\nChoose a peaceful place free from distractions.\n\n3. Focus on the Present\nLet go of past worries and future stress.\n\n4. Be Kind to Your Mind\nDo not judge your thoughts—just observe them.\n\n5. Start Small\nEven 5–10 minutes a day can make a difference.\n\n6. Use Guided Meditation\nListen to calming audio if you're a beginner.\n\n7. Sit Comfortably\nRelax your body while keeping your back straight.\n\n8. Practice Daily\nConsistency helps build a strong habit.\n\n9. Let Thoughts Pass\nAllow thoughts to come and go without attachment.\n\n10. End with Gratitude\nTake a moment to appreciate yourself and your day."
+            android:textSize="16sp"
+            android:background="#792"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
